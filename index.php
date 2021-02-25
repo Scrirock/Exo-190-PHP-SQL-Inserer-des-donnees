@@ -37,7 +37,7 @@ try {
 
     $newProduct = "
         INSERT INTO table_test_php.produit (id, titre, prix, description_courte, descrition_longue) 
-        VALUES (NULL, 'pomme', 2.54, 'un fruit', 'un fruit rond, ici il est rouge, qui ce mange a toute heure de la journee')
+        VALUES (NULL, 'pomme', 2.54, 'un fruit', 'un fruit rond, ici il est rouge, qui se mange a toute heure de la journee')
     ";
     $pdo->exec($newProduct);
 
@@ -62,8 +62,8 @@ try {
 
     $newProducts = "
         INSERT INTO table_test_php.produit (id, titre, prix, description_courte, descrition_longue) 
-        VALUES (NULL, 'table', 72.99, 'un meuble', 'un meuble pour y poser des truc, souvent les gens prenne un repas grace a ca'),
-               (NULL, 'chaise', 8752.01, 'un meuble', 'un meuble tres aprécié pour s\'assoire et souvent utililiser avec une table')
+        VALUES (NULL, 'table', 72.99, 'un meuble', 'un meuble pour y poser des truc, souvent les gens prennent un repas grace a ca'),
+               (NULL, 'chaise', 8752.01, 'un meuble', 'un meuble tres aprécié pour s\'assoire et souvent utililisé avec une table')
     ";
     $pdo->exec($newProducts);
 
